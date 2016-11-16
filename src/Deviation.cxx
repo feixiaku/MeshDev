@@ -163,9 +163,11 @@ bool Deviation::GeometricDeviation()
 {
 	dev.resize( mavn );
 
+    //std::cout << std::endl << "mavn = " << mavn << std::endl;
 	for( register int i = 0; i < mavn; i++ )
 	{
 		dev[i] = ug->NearestNeighbors(ma->Vertex(i))->Distance();
+        //std::cout << std::endl << "dev["<<i<<"] = " << dev[i] << std::endl;
 	}
 		
 	delete ug;
@@ -371,6 +373,8 @@ bool Deviation::Statistics()
 	// Maximum
 	maxdev = dev.max();
 	// Mean
+    std::cout << std::endl;
+    std::cout << "dev.size = " << dev.size() << std::endl;
 	meandev = dev.sum() / dev.size();
 	// Variance
 	vardev = 0;

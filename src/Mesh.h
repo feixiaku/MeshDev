@@ -33,7 +33,8 @@ enum FileFormat
 	UNKNOWN_FILE,
 	INVENTOR_FILE,
 	VRML_1_FILE,
-	VRML_2_FILE
+	VRML_2_FILE,
+    PLY_FILE
 };
 
 //--

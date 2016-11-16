@@ -295,7 +295,7 @@ static void OutputLog()
 // Main Program
 int main(int argc, char *argv[])
 {
-	cout<<endl<<banner_string<<endl;
+	//cout<<endl<<banner_string<<endl;
 	if( Parameters(argc, argv) == false ) return EXIT_FAILURE;
 
 	timer.Reset();

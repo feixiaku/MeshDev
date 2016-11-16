@@ -1,0 +1,442 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddColor	Mesh.h	/^		inline void AddColor( const Vector3d& c ) {$/;"	f	class:Mesh
+AddEdge	Neighborhood.cxx	/^void Neighborhood::AddEdge( const Vector3d& coord, int face, int edge, double ratio )$/;"	f	class:Neighborhood
+AddFace	Mesh.h	/^		inline void AddFace( const Vector3i& f ) {$/;"	f	class:Mesh
+AddFace	Neighborhood.cxx	/^void Neighborhood::AddFace( const Vector3d& coord, int face, double ratio1, double ratio2 )$/;"	f	class:Neighborhood
+AddFaceNormal	Mesh.h	/^		inline void AddFaceNormal( const Vector3d& n ) {$/;"	f	class:Mesh
+AddOneFace	UniformGrid.cxx	/^void UniformGrid::AddOneFace(int n, int x, int y, int z)$/;"	f	class:UniformGrid
+AddOnePoint	UniformGrid.cxx	/^void UniformGrid::AddOnePoint(int n, int x, int y, int z)$/;"	f	class:UniformGrid
+AddPoint	BoundingBox.h	/^		inline BoundingBox<Size>& AddPoint( const Point& p ) {$/;"	f	class:BoundingBox
+AddPoints	BoundingBox.h	/^		inline BoundingBox<Size>& AddPoints( const std::vector<Point>& v ) {$/;"	f	class:BoundingBox
+AddTexture	Mesh.h	/^		inline void AddTexture( const Vector2d& t ) {$/;"	f	class:Mesh
+AddVertex	Mesh.h	/^		inline void AddVertex( const Vector3d& v ) {$/;"	f	class:Mesh
+AddVertex	Neighborhood.cxx	/^void Neighborhood::AddVertex( const Vector3d& coord, int vertex )$/;"	f	class:Neighborhood
+AddVertexNormal	Mesh.h	/^		inline void AddVertexNormal( const Vector3d& n ) {$/;"	f	class:Mesh
+AngleFromCotan	VectorT.h	/^		inline double AngleFromCotan(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+AngleFromCotan	VectorT.h	/^inline double AngleFromCotan(const VectorT<Type,Size>& u, const VectorT<Type,Size>& v)$/;"	f
+AngleFromCotan	VectorT.h	/^inline double AngleFromCotan(const VectorT<Type,Size>& vo, const VectorT<Type,Size>& va, const VectorT<Type,Size>& vb)$/;"	f
+Apply	VectorT.h	/^		inline VectorT<Type,Size> Apply(const func& f) const {$/;"	f	class:VectorT
+Area2D	UniformGrid.h	/^inline double UniformGrid::Area2D(const Vector2d& a, const Vector2d& b, const Vector2d& c)$/;"	f	class:UniformGrid
+AttributeBinding	FileVrml1.cpp	/^enum AttributeBinding$/;"	g	file:
+BoundingBox	BoundingBox.h	/^		inline BoundingBox()$/;"	f	class:BoundingBox
+BoundingBox	BoundingBox.h	/^		inline BoundingBox(const BoundingBox& bb)$/;"	f	class:BoundingBox
+BoundingBox	BoundingBox.h	/^class BoundingBox$/;"	c
+BoundingBox1d	BoundingBox.h	/^typedef BoundingBox<1> BoundingBox1d;$/;"	t
+BoundingBox2d	BoundingBox.h	/^typedef BoundingBox<2> BoundingBox2d;$/;"	t
+BoundingBox3d	BoundingBox.h	/^typedef BoundingBox<3> BoundingBox3d;$/;"	t
+BoundingBox4d	BoundingBox.h	/^typedef BoundingBox<4> BoundingBox4d;$/;"	t
+COLOR_DEVIATION	Deviation.h	/^	COLOR_DEVIATION,$/;"	e	enum:DeviationType
+Cell3D	UniformGrid.h	/^struct Cell3D$/;"	s
+Center	BoundingBox.h	/^		inline Point Center() const {$/;"	f	class:BoundingBox
+Clamp	UniformGrid.h	/^inline int UniformGrid::Clamp( int x, int max )$/;"	f	class:UniformGrid
+ClearAll	Mesh.cpp	/^void Mesh::ClearAll()$/;"	f	class:Mesh
+ClearAll	PlaneMesh.cxx	/^void PlaneMesh::ClearAll()$/;"	f	class:PlaneMesh
+ClearColors	Mesh.h	/^		inline void ClearColors() {$/;"	f	class:Mesh
+ClearFaceNormals	Mesh.h	/^		inline void ClearFaceNormals() {$/;"	f	class:Mesh
+ClearFacePlanes	PlaneMesh.h	/^		inline void ClearFacePlanes() {$/;"	f	class:PlaneMesh
+ClearFaces	Mesh.h	/^		inline void ClearFaces() {$/;"	f	class:Mesh
+ClearTextureName	Mesh.h	/^		inline void ClearTextureName() {$/;"	f	class:Mesh
+ClearTextures	Mesh.h	/^		inline void ClearTextures() {$/;"	f	class:Mesh
+ClearVertexNormals	Mesh.h	/^		inline void ClearVertexNormals() {$/;"	f	class:Mesh
+ClearVertices	Mesh.h	/^		inline void ClearVertices() {$/;"	f	class:Mesh
+Clock	Stopwatch.h	/^		inline Clock() : time(0) {}$/;"	f	class:Clock
+Clock	Stopwatch.h	/^		inline Clock(const Clock& c) : time(c.time) {}$/;"	f	class:Clock
+Clock	Stopwatch.h	/^		inline Clock(const clock_t& t) : time(t) {}$/;"	f	class:Clock
+Clock	Stopwatch.h	/^class Clock$/;"	c
+Color	Mesh.h	/^		inline Vector3d& Color(int f, int v) {$/;"	f	class:Mesh
+Color	Mesh.h	/^		inline Vector3d& Color(int i) {$/;"	f	class:Mesh
+Color	Mesh.h	/^		inline const Vector3d& Color(int f, int v) const {$/;"	f	class:Mesh
+Color	Mesh.h	/^		inline const Vector3d& Color(int i) const {$/;"	f	class:Mesh
+ColorNumber	Mesh.h	/^		inline int ColorNumber() const {$/;"	f	class:Mesh
+Colors	Mesh.h	/^		inline const std::vector<Vector3d>& Colors() const {$/;"	f	class:Mesh
+Colors	Mesh.h	/^		inline std::vector<Vector3d>& Colors() {$/;"	f	class:Mesh
+Compute	Deviation.cxx	/^bool Deviation::Compute( DeviationType type )$/;"	f	class:Deviation
+ComputeFaceArea	Mesh.h	/^		inline double ComputeFaceArea( int i ) const {$/;"	f	class:Mesh
+ComputeFaceArea	Mesh.h	/^		inline double ComputeFaceArea( int va, int vb, int vc ) const {$/;"	f	class:Mesh
+ComputeFaceNormal	Mesh.h	/^		inline Vector3d ComputeFaceNormal( int f ) const {$/;"	f	class:Mesh
+ComputeFaceNormal	Mesh.h	/^		inline Vector3d ComputeFaceNormal( int va, int vb, int vc ) const {$/;"	f	class:Mesh
+ComputeFaceNormals	Mesh.cpp	/^void Mesh::ComputeFaceNormals()$/;"	f	class:Mesh
+ComputeFacePlanes	PlaneMesh.cxx	/^void PlaneMesh::ComputeFacePlanes()$/;"	f	class:PlaneMesh
+ComputeOK	MeshDev.cxx	/^static bool ComputeOK;$/;"	v	file:
+ComputeRawFaceNormal	Mesh.h	/^		inline Vector3d ComputeRawFaceNormal( int f ) const {$/;"	f	class:Mesh
+ComputeRawFaceNormal	Mesh.h	/^		inline Vector3d ComputeRawFaceNormal( int va, int vb, int vc ) const {$/;"	f	class:Mesh
+ComputeVertexNormals	Mesh.cpp	/^void Mesh::ComputeVertexNormals()$/;"	f	class:Mesh
+Cotan	VectorT.h	/^		inline double Cotan(const VectorT<Type,Size>& v) const$/;"	f	class:VectorT
+Cotan	VectorT.h	/^inline double Cotan(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2)$/;"	f
+Cotan	VectorT.h	/^inline double Cotan(const VectorT<Type,Size>& vo, const VectorT<Type,Size>& va, const VectorT<Type,Size>& vb)$/;"	f
+Cross	VectorT.h	/^inline VectorT<Type,Size> Cross(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2)$/;"	f
+Deviation	Deviation.cxx	/^Deviation::Deviation()$/;"	f	class:Deviation
+Deviation	Deviation.h	/^class Deviation$/;"	c
+Deviation2Color	Deviation.cxx	/^Vector3d Deviation::Deviation2Color( const double& d )$/;"	f	class:Deviation
+Deviation2Material	Deviation.cxx	/^void Deviation::Deviation2Material()$/;"	f	class:Deviation
+DeviationType	Deviation.h	/^enum DeviationType$/;"	g
+Diagonal	BoundingBox.h	/^		inline double Diagonal() const {$/;"	f	class:BoundingBox
+Dimension	VectorT.h	/^		static inline int Dimension() { return Size; }$/;"	f	class:VectorT
+Distance	Neighborhood.cxx	/^double Neighborhood::Distance() const$/;"	f	class:Neighborhood
+DistancePoint2Face	UniformGrid.h	/^inline void UniformGrid::DistancePoint2Face( const Vector3d &p, int f )$/;"	f	class:UniformGrid
+DistancePoint2Plane	UniformGrid.h	/^inline double UniformGrid::DistancePoint2Plane(const Vector3d &v, const Vector3d& n, const double& h)$/;"	f	class:UniformGrid
+Dot	VectorT.h	/^inline Type Dot(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2)$/;"	f
+Double2Color	Mesh.cpp	/^Vector3d Double2Color( const double& d )$/;"	f
+Edge2Vertex	Deviation.cxx	/^static const int Edge2Vertex[3][2] = { { 0, 1 }, { 1, 2 }, { 2, 0 } };$/;"	v	file:
+Error	MeshDev.cxx	/^static void Error( int n, bool line_feed = true )$/;"	f	file:
+Face	Mesh.h	/^		inline Vector3i& Face(int i) {$/;"	f	class:Mesh
+Face	Mesh.h	/^		inline const Vector3i& Face(int i) const {$/;"	f	class:Mesh
+Face	Mesh.h	/^		inline const int& Face(int f, int v) const {$/;"	f	class:Mesh
+Face	Mesh.h	/^		inline int& Face(int f, int v) {$/;"	f	class:Mesh
+FaceHasVertex	Mesh.h	/^		inline bool FaceHasVertex( int f, int v ) const {$/;"	f	class:Mesh
+FaceNormal	Mesh.h	/^		inline Vector3d& FaceNormal(int i) {$/;"	f	class:Mesh
+FaceNormal	Mesh.h	/^		inline const Vector3d& FaceNormal(int i) const {$/;"	f	class:Mesh
+FaceNormalNumber	Mesh.h	/^		inline int FaceNormalNumber() const {$/;"	f	class:Mesh
+FaceNormals	Mesh.h	/^		inline const std::vector<Vector3d>& FaceNormals() const {$/;"	f	class:Mesh
+FaceNormals	Mesh.h	/^		inline std::vector<Vector3d>& FaceNormals() {$/;"	f	class:Mesh
+FaceNumber	Mesh.h	/^		inline int FaceNumber() const {$/;"	f	class:Mesh
+FacePlane	PlaneMesh.h	/^		inline const double& FacePlane(int i) const {$/;"	f	class:PlaneMesh
+FacePlane	PlaneMesh.h	/^		inline double& FacePlane(int i) {$/;"	f	class:PlaneMesh
+FacePlaneNumber	PlaneMesh.h	/^		inline int FacePlaneNumber() const {$/;"	f	class:PlaneMesh
+FacePlanes	PlaneMesh.h	/^		inline const std::vector<double>& FacePlanes() const {$/;"	f	class:PlaneMesh
+FacePlanes	PlaneMesh.h	/^		inline std::vector<double>& FacePlanes() {$/;"	f	class:PlaneMesh
+Faces	Mesh.h	/^		inline const std::vector<Vector3i>& Faces() const {$/;"	f	class:Mesh
+Faces	Mesh.h	/^		inline std::vector<Vector3i>& Faces() {$/;"	f	class:Mesh
+FacesTestedNumber	UniformGrid.h	/^		int FacesTestedNumber() { return _FacesTested; }$/;"	f	class:UniformGrid
+FileFormat	Mesh.h	/^enum FileFormat$/;"	g
+GEOMETRIC_DEVIATION	Deviation.h	/^	GEOMETRIC_DEVIATION,$/;"	e	enum:DeviationType
+GeometricDeviation	Deviation.cxx	/^bool Deviation::GeometricDeviation()$/;"	f	class:Deviation
+GeometricDeviationSample	Deviation.cxx	/^bool Deviation::GeometricDeviationSample()$/;"	f	class:Deviation
+GetCurrentClock	Stopwatch.h	/^		inline const clock_t& GetCurrentClock() { return time = clock(); }$/;"	f	class:Clock
+Height	Sample.h	/^		int Height() const { return height; }$/;"	f	class:Sample
+Help	MeshDev.cxx	/^static void Help()$/;"	f	file:
+INVENTOR_FILE	Mesh.h	/^	INVENTOR_FILE,$/;"	e	enum:FileFormat
+InitDev	Sample.cxx	/^void Sample::InitDev()$/;"	f	class:Sample
+Initialization	Deviation.cxx	/^bool Deviation::Initialization( Mesh* a, Mesh* b, double SampleStep, double GridSize )$/;"	f	class:Deviation
+Intermediate	Stopwatch.h	/^		inline const Clock& Intermediate() {$/;"	f	class:Stopwatch
+Invert	VectorT.h	/^		inline VectorT<Type,Size>& Invert() {$/;"	f	class:VectorT
+Invert	VectorT.h	/^inline VectorT<Type,Size>& Invert(VectorT<Type,Size>& v)$/;"	f
+IsColinear	VectorT.h	/^		inline bool IsColinear(const VectorT<Type,Size>& v) const$/;"	f	class:VectorT
+IsColinear	VectorT.h	/^inline bool IsColinear(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2)$/;"	f
+IsColinear	VectorT.h	/^inline bool IsColinear(const VectorT<Type,Size>& vo, const VectorT<Type,Size>& va, const VectorT<Type,Size>& vb)$/;"	f
+IsRunning	Stopwatch.h	/^		inline bool IsRunning() const {$/;"	f	class:Stopwatch
+IsValidFace	Mesh.h	/^		inline bool IsValidFace( int f ) const {$/;"	f	class:Mesh
+Length	BoundingBox.h	/^		inline Point Length() const {$/;"	f	class:BoundingBox
+Length	VectorT.h	/^		inline double Length() const {$/;"	f	class:VectorT
+Length	VectorT.h	/^inline double Length(const VectorT<Type,Size>& v)$/;"	f
+Lerp	MeshDev.h	/^inline Type Lerp( const Type& a, const Type& b, const double& r )$/;"	f
+Lerp	VectorT.h	/^		inline VectorT<Type,Size> Lerp(const VectorT<Type,Size>& v, const double& t) const {$/;"	f	class:VectorT
+Lerp	VectorT.h	/^inline VectorT<Type,Size> Lerp(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2, const double& t)$/;"	f
+LoadModels	MeshDev.cxx	/^static bool LoadModels()$/;"	f	file:
+Max	BoundingBox.h	/^		inline const Point& Max() const {$/;"	f	class:BoundingBox
+Max	Deviation.h	/^		double Max() { return maxdev; }$/;"	f	class:Deviation
+Max	VectorT.h	/^		inline Type Max() const {$/;"	f	class:VectorT
+Max	VectorT.h	/^		inline VectorT<Type,Size> Max(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+Maximize	VectorT.h	/^		inline VectorT<Type,Size>& Maximize(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+Mean	Deviation.h	/^		double Mean() { return meandev; }$/;"	f	class:Deviation
+Mean	VectorT.h	/^		inline Type Mean() const {$/;"	f	class:VectorT
+Median	Deviation.h	/^		double Median() { return meddev; }$/;"	f	class:Deviation
+Mesh	Mesh.h	/^		inline Mesh() {$/;"	f	class:Mesh
+Mesh	Mesh.h	/^		inline Mesh(const Mesh& m) : vertices(m.vertices), faces(m.faces),$/;"	f	class:Mesh
+Mesh	Mesh.h	/^class Mesh$/;"	c
+MeshDeviation	Deviation.cxx	/^bool Deviation::MeshDeviation( std::vector<Type>& aa, std::vector<Type>& ab )$/;"	f	class:Deviation
+MeshDeviationSample	Deviation.cxx	/^bool Deviation::MeshDeviationSample( vector<Type>& aa, std::vector<Type>& ab )$/;"	f	class:Deviation
+Min	BoundingBox.h	/^		inline const Point& Min() const {$/;"	f	class:BoundingBox
+Min	Deviation.h	/^		double Min() { return mindev;}$/;"	f	class:Deviation
+Min	VectorT.h	/^		inline Type Min() const {$/;"	f	class:VectorT
+Min	VectorT.h	/^		inline VectorT<Type,Size> Min(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+Minimize	VectorT.h	/^		inline VectorT<Type,Size>& Minimize(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+NORMAL_DEVIATION	Deviation.h	/^	NORMAL_DEVIATION,$/;"	e	enum:DeviationType
+NearestNeighbors	UniformGrid.cxx	/^Neighborhood* UniformGrid::NearestNeighbors(const Vector3d &point)$/;"	f	class:UniformGrid
+Neighbor	Neighborhood.h	/^struct Neighbor$/;"	s
+Neighborhood	Neighborhood.cxx	/^Neighborhood::Neighborhood()$/;"	f	class:Neighborhood
+Neighborhood	Neighborhood.h	/^class Neighborhood$/;"	c
+Neighbors	Neighborhood.cxx	/^Neighbor* Neighborhood::Neighbors()$/;"	f	class:Neighborhood
+NewEdge	Neighborhood.cxx	/^void Neighborhood::NewEdge( double dist, const Vector3d& coord, int face, int edge, double ratio )$/;"	f	class:Neighborhood
+NewFace	Neighborhood.cxx	/^void Neighborhood::NewFace( double dist, const Vector3d& coord, int face, double ratio1, double ratio2 )$/;"	f	class:Neighborhood
+NewVertex	Neighborhood.cxx	/^void Neighborhood::NewVertex( double dist, const Vector3d& coord, int vertex )$/;"	f	class:Neighborhood
+Normalize	VectorT.h	/^		inline VectorT<Type,Size>& Normalize() {$/;"	f	class:VectorT
+Normalize	VectorT.h	/^inline VectorT<Type,Size>& Normalize(VectorT<Type,Size>& v)$/;"	f
+ObtuseAngle	VectorT.h	/^		inline bool ObtuseAngle(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+ObtuseAngle	VectorT.h	/^inline bool ObtuseAngle(const VectorT<Type,Size>& v1, const VectorT<Type,Size>& v2)$/;"	f
+ObtuseAngle	VectorT.h	/^inline bool ObtuseAngle(const VectorT<Type,Size>& vo, const VectorT<Type,Size>& va, const VectorT<Type,Size>& vb)$/;"	f
+OutputLog	MeshDev.cxx	/^static void OutputLog()$/;"	f	file:
+PER_VERTEX_BINDING	FileVrml1.cpp	/^	PER_VERTEX_BINDING,$/;"	e	enum:AttributeBinding	file:
+PER_VERTEX_INDEXED_BINDING	FileVrml1.cpp	/^	PER_VERTEX_INDEXED_BINDING$/;"	e	enum:AttributeBinding	file:
+PLY_FILE	Mesh.h	/^    PLY_FILE$/;"	e	enum:FileFormat
+Parameters	MeshDev.cxx	/^static bool Parameters( int argc, char *argv[] )$/;"	f	file:
+Plane	Plane.h	/^	Plane( const Plane& p ) : n( p.n ), h( p.h ) {}$/;"	f	struct:Plane
+Plane	Plane.h	/^	Plane( const Vector3d& n, const double& h ) : n( n ), h( h ) {}$/;"	f	struct:Plane
+Plane	Plane.h	/^	Plane() : n(0,0,0), h(0) {}$/;"	f	struct:Plane
+Plane	Plane.h	/^struct Plane$/;"	s
+PlaneMesh	PlaneMesh.h	/^		inline PlaneMesh() {$/;"	f	class:PlaneMesh
+PlaneMesh	PlaneMesh.h	/^class PlaneMesh : public Mesh$/;"	c
+Point	BoundingBox.h	/^		typedef VectorT<double,Size> Point;$/;"	t	class:BoundingBox
+ReadFile	Mesh.cpp	/^bool Mesh::ReadFile( const std::string& file_name )$/;"	f	class:Mesh
+ReadPly	FilePly.cpp	/^bool ReadPly( Mesh& mesh, const std::string& file_name)$/;"	f
+ReadVrml1	FileVrml1.cpp	/^bool ReadVrml1( Mesh& mesh, const std::string& file_name )$/;"	f
+ReadVrml2	FileVrml2.cpp	/^bool ReadVrml2( Mesh& mesh, const std::string& file_name )$/;"	f
+Reset	BoundingBox.h	/^		inline BoundingBox& Reset() {$/;"	f	class:BoundingBox
+Reset	Neighborhood.cxx	/^void Neighborhood::Reset()$/;"	f	class:Neighborhood
+Reset	Stopwatch.h	/^		inline Stopwatch& Reset() {$/;"	f	class:Stopwatch
+Rms	Deviation.h	/^		double Rms() {$/;"	f	class:Deviation
+Sample	Sample.cxx	/^Sample::Sample()$/;"	f	class:Sample
+Sample	Sample.h	/^class Sample $/;"	c
+SampleFace	Deviation.cxx	/^void Deviation::SampleFace( int face )$/;"	f	class:Deviation
+SampleNumber	Deviation.h	/^		int SampleNumber() { return snum; }$/;"	f	class:Deviation
+SetDeviationColorBound	Deviation.h	/^		inline void SetDeviationColorBound( const double& v ) {$/;"	f	class:Deviation
+SetFaces	UniformGrid.cxx	/^void UniformGrid::SetFaces()$/;"	f	class:UniformGrid
+SetHeight	Sample.cxx	/^void Sample::SetHeight( int Height )$/;"	f	class:Sample
+Sqr	MeshDev.h	/^inline Type Sqr( const Type& x )$/;"	f
+SquareLength	VectorT.h	/^		inline Type SquareLength() const {$/;"	f	class:VectorT
+Start	Stopwatch.h	/^		inline Stopwatch& Start() { $/;"	f	class:Stopwatch
+Statistics	Deviation.cxx	/^bool Deviation::Statistics()$/;"	f	class:Deviation
+StatisticsSample	Deviation.cxx	/^void Deviation::StatisticsSample()$/;"	f	class:Deviation
+Stop	Stopwatch.h	/^		inline Stopwatch& Stop() {$/;"	f	class:Stopwatch
+Stopwatch	Stopwatch.h	/^		inline Stopwatch() : on(false) {$/;"	f	class:Stopwatch
+Stopwatch	Stopwatch.h	/^class Stopwatch$/;"	c
+TEXTURE_DEVIATION	Deviation.h	/^	TEXTURE_DEVIATION$/;"	e	enum:DeviationType
+TestRegisterFace	UniformGrid.cxx	/^#define TestRegisterFace(/;"	d	file:
+Texture	Mesh.h	/^		inline Vector2d& Texture(int f, int v) {$/;"	f	class:Mesh
+Texture	Mesh.h	/^		inline Vector2d& Texture(int i) {$/;"	f	class:Mesh
+Texture	Mesh.h	/^		inline const Vector2d& Texture(int f, int v) const {$/;"	f	class:Mesh
+Texture	Mesh.h	/^		inline const Vector2d& Texture(int i) const {$/;"	f	class:Mesh
+TextureName	Mesh.h	/^		inline const std::string& TextureName() const {$/;"	f	class:Mesh
+TextureName	Mesh.h	/^		inline std::string& TextureName() {$/;"	f	class:Mesh
+TextureNumber	Mesh.h	/^		inline int TextureNumber() const {$/;"	f	class:Mesh
+Textures	Mesh.h	/^		inline const std::vector<Vector2d>& Textures() const {$/;"	f	class:Mesh
+Textures	Mesh.h	/^		inline std::vector<Vector2d>& Textures() {$/;"	f	class:Mesh
+Time	Stopwatch.h	/^		inline clock_t& Time() { return time; }$/;"	f	class:Clock
+Time	Stopwatch.h	/^		inline const clock_t& Time() const { return time; }$/;"	f	class:Clock
+Total	Stopwatch.h	/^		inline const Clock& Total() {$/;"	f	class:Stopwatch
+UNKNOWN_FILE	Mesh.h	/^	UNKNOWN_FILE,$/;"	e	enum:FileFormat
+UNSUPPORTED_BINDING	FileVrml1.cpp	/^	UNSUPPORTED_BINDING,$/;"	e	enum:AttributeBinding	file:
+UniformGrid	UniformGrid.cxx	/^UniformGrid::UniformGrid( Mesh* m, BoundingBox3d* bbox, double dim )$/;"	f	class:UniformGrid
+UniformGrid	UniformGrid.h	/^class UniformGrid$/;"	c
+UpperCase	Mesh.cpp	/^static std::string UpperCase( const std::string& s )$/;"	f	file:
+VRML_1_FILE	Mesh.h	/^	VRML_1_FILE,$/;"	e	enum:FileFormat
+VRML_2_FILE	Mesh.h	/^	VRML_2_FILE,$/;"	e	enum:FileFormat
+Variance	Deviation.h	/^		double Variance() { return vardev; }$/;"	f	class:Deviation
+Vector1c	VectorT.h	/^typedef VectorT<signed char,1>        Vector1c;$/;"	t
+Vector1d	VectorT.h	/^typedef VectorT<double,1>             Vector1d;$/;"	t
+Vector1f	VectorT.h	/^typedef VectorT<float,1>              Vector1f;$/;"	t
+Vector1i	VectorT.h	/^typedef VectorT<signed int,1>         Vector1i;$/;"	t
+Vector1s	VectorT.h	/^typedef VectorT<signed short int,1>   Vector1s;$/;"	t
+Vector1uc	VectorT.h	/^typedef VectorT<unsigned char,1>      Vector1uc;$/;"	t
+Vector1ui	VectorT.h	/^typedef VectorT<unsigned int,1>       Vector1ui;$/;"	t
+Vector1us	VectorT.h	/^typedef VectorT<unsigned short int,1> Vector1us;$/;"	t
+Vector2c	VectorT.h	/^typedef VectorT<signed char,2>        Vector2c;$/;"	t
+Vector2d	VectorT.h	/^typedef VectorT<double,2>             Vector2d;$/;"	t
+Vector2f	VectorT.h	/^typedef VectorT<float,2>              Vector2f;$/;"	t
+Vector2i	VectorT.h	/^typedef VectorT<signed int,2>         Vector2i;$/;"	t
+Vector2s	VectorT.h	/^typedef VectorT<signed short int,2>   Vector2s;$/;"	t
+Vector2uc	VectorT.h	/^typedef VectorT<unsigned char,2>      Vector2uc;$/;"	t
+Vector2ui	VectorT.h	/^typedef VectorT<unsigned int,2>       Vector2ui;$/;"	t
+Vector2us	VectorT.h	/^typedef VectorT<unsigned short int,2> Vector2us;$/;"	t
+Vector3c	VectorT.h	/^typedef VectorT<signed char,3>        Vector3c;$/;"	t
+Vector3d	VectorT.h	/^typedef VectorT<double,3>             Vector3d;$/;"	t
+Vector3f	VectorT.h	/^typedef VectorT<float,3>              Vector3f;$/;"	t
+Vector3i	VectorT.h	/^typedef VectorT<signed int,3>         Vector3i;$/;"	t
+Vector3s	VectorT.h	/^typedef VectorT<signed short int,3>   Vector3s;$/;"	t
+Vector3uc	VectorT.h	/^typedef VectorT<unsigned char,3>      Vector3uc;$/;"	t
+Vector3ui	VectorT.h	/^typedef VectorT<unsigned int,3>       Vector3ui;$/;"	t
+Vector3us	VectorT.h	/^typedef VectorT<unsigned short int,3> Vector3us;$/;"	t
+Vector4c	VectorT.h	/^typedef VectorT<signed char,4>        Vector4c;$/;"	t
+Vector4d	VectorT.h	/^typedef VectorT<double,4>             Vector4d;$/;"	t
+Vector4f	VectorT.h	/^typedef VectorT<float,4>              Vector4f;$/;"	t
+Vector4i	VectorT.h	/^typedef VectorT<signed int,4>         Vector4i;$/;"	t
+Vector4s	VectorT.h	/^typedef VectorT<signed short int,4>   Vector4s;$/;"	t
+Vector4uc	VectorT.h	/^typedef VectorT<unsigned char,4>      Vector4uc;$/;"	t
+Vector4ui	VectorT.h	/^typedef VectorT<unsigned int,4>       Vector4ui;$/;"	t
+Vector4us	VectorT.h	/^typedef VectorT<unsigned short int,4> Vector4us;$/;"	t
+VectorT	VectorT.h	/^		explicit inline VectorT(const Type val[Size]) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		explicit inline VectorT(const Type& v) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		explicit inline VectorT(const Type& v0,const Type& v1) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		explicit inline VectorT(const Type& v0,const Type& v1,const Type& v2) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		explicit inline VectorT(const Type& v0,const Type& v1,const Type& v2, const Type& v3) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		inline VectorT() {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^		inline VectorT(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+VectorT	VectorT.h	/^class VectorT$/;"	c
+Vectorize	VectorT.h	/^		static inline VectorT<Type,Size> Vectorize(const Type& s) {$/;"	f	class:VectorT
+Vertex	Mesh.h	/^		inline Vector3d& Vertex(int f, int v) {$/;"	f	class:Mesh
+Vertex	Mesh.h	/^		inline Vector3d& Vertex(int i) {$/;"	f	class:Mesh
+Vertex	Mesh.h	/^		inline const Vector3d& Vertex(int f, int v) const {$/;"	f	class:Mesh
+Vertex	Mesh.h	/^		inline const Vector3d& Vertex(int i) const {$/;"	f	class:Mesh
+VertexNormal	Mesh.h	/^		inline Vector3d& VertexNormal(int f, int v) {$/;"	f	class:Mesh
+VertexNormal	Mesh.h	/^		inline Vector3d& VertexNormal(int i) {$/;"	f	class:Mesh
+VertexNormal	Mesh.h	/^		inline const Vector3d& VertexNormal(int f, int v) const {$/;"	f	class:Mesh
+VertexNormal	Mesh.h	/^		inline const Vector3d& VertexNormal(int i) const {$/;"	f	class:Mesh
+VertexNormalNumber	Mesh.h	/^		inline int VertexNormalNumber() const {$/;"	f	class:Mesh
+VertexNormals	Mesh.h	/^		inline const std::vector<Vector3d>& VertexNormals() const {$/;"	f	class:Mesh
+VertexNormals	Mesh.h	/^		inline std::vector<Vector3d>& VertexNormals() {$/;"	f	class:Mesh
+VertexNumber	Mesh.h	/^		inline int VertexNumber() const {$/;"	f	class:Mesh
+Vertices	Mesh.h	/^		inline const std::vector<Vector3d>& Vertices() const {$/;"	f	class:Mesh
+Vertices	Mesh.h	/^		inline std::vector<Vector3d>& Vertices() {$/;"	f	class:Mesh
+WriteFile	Mesh.cpp	/^bool Mesh::WriteFile( const std::string& file_name, const FileFormat& file_format ) const$/;"	f	class:Mesh
+WriteVrml1	FileVrml1.cpp	/^bool WriteVrml1( const Mesh& mesh, const std::string& file_name, bool inventor )$/;"	f
+WriteVrml2	FileVrml2.cpp	/^bool WriteVrml2( const Mesh& mesh, const std::string& file_name )$/;"	f
+_BOUNDINGBOX_	BoundingBox.h	/^#define _BOUNDINGBOX_$/;"	d
+_DEVIATION_	Deviation.h	/^#define _DEVIATION_$/;"	d
+_FILEPLY_H	FilePly.h	/^#define _FILEPLY_H$/;"	d
+_FILEVRML1_	FileVrml1.h	/^#define _FILEVRML1_$/;"	d
+_FILEVRML2_	FileVrml2.h	/^#define _FILEVRML2_$/;"	d
+_FacesTested	UniformGrid.h	/^		int _FacesTested;$/;"	m	class:UniformGrid
+_MESHDEV_	MeshDev.h	/^#define _MESHDEV_$/;"	d
+_MESH_	Mesh.h	/^#define _MESH_$/;"	d
+_NEIGHBORHOOD_	Neighborhood.h	/^#define _NEIGHBORHOOD_$/;"	d
+_PLANEMESH_	PlaneMesh.h	/^#define _PLANEMESH_$/;"	d
+_PLANE_	Plane.h	/^#define _PLANE_$/;"	d
+_SAMPLE_	Sample.h	/^#define _SAMPLE_$/;"	d
+_STOPWATCH_	Stopwatch.h	/^#define _STOPWATCH_$/;"	d
+_UNIFORMGRID_	UniformGrid.h	/^#define _UNIFORMGRID_$/;"	d
+_VECTORT_	VectorT.h	/^#define _VECTORT_$/;"	d
+banner_string	MeshDev.cxx	/^static const string banner_string =$/;"	v	file:
+bb	Deviation.h	/^		BoundingBox3d* bb;$/;"	m	class:Deviation
+c	Neighborhood.h	/^	Vector3d	c;		\/\/ Coordinates$/;"	m	struct:Neighbor
+colors	Mesh.h	/^		std::vector<Vector3d> colors;$/;"	m	class:Mesh
+dev	Deviation.h	/^		valarray<double> dev; \/\/ Deviation$/;"	m	class:Deviation
+dev	MeshDev.cxx	/^static Deviation* dev;$/;"	v	file:
+dev	Sample.h	/^		double**	dev;$/;"	m	class:Sample
+dev_bound	Deviation.h	/^		double dev_bound;$/;"	m	class:Deviation
+dev_type	MeshDev.cxx	/^static int dev_type=0;$/;"	v	file:
+distance	Neighborhood.h	/^		double		distance;$/;"	m	class:Neighborhood
+e	Neighborhood.h	/^	int			e;		\/\/ Edge containing the point$/;"	m	struct:Neighbor
+error_string	MeshDev.cxx	/^static const string error_string [] =$/;"	v	file:
+f	Neighborhood.h	/^	int			f;		\/\/ Face containing the point$/;"	m	struct:Neighbor
+f	UniformGrid.h	/^	int f;$/;"	m	struct:Cell3D
+face_normals	Mesh.h	/^		std::vector<Vector3d> face_normals;$/;"	m	class:Mesh
+face_planes	PlaneMesh.h	/^		std::vector<double>     face_planes;$/;"	m	class:PlaneMesh
+faces	Mesh.h	/^		std::vector<Vector3i> faces;$/;"	m	class:Mesh
+grid_size	MeshDev.cxx	/^static double grid_size=0.5;$/;"	v	file:
+h	Plane.h	/^	double   h;$/;"	m	struct:Plane
+height	Sample.h	/^		int		height;$/;"	m	class:Sample
+inter	Stopwatch.h	/^		Clock inter; \/\/ Intermediate elapsed time$/;"	m	class:Stopwatch
+last	Stopwatch.h	/^		Clock last;  \/\/ Wall clock of start watch$/;"	m	class:Stopwatch
+lw	Sample.h	/^		int*	    lw;$/;"	m	class:Sample
+m_pCell	UniformGrid.h	/^		Cell3D**** m_pCell;$/;"	m	class:UniformGrid
+m_pCellNum	UniformGrid.h	/^		Vector3i m_pCellNum;$/;"	m	class:UniformGrid
+m_pMin	UniformGrid.h	/^		Vector3d m_pMin;$/;"	m	class:UniformGrid
+m_rSize	UniformGrid.h	/^		double m_rSize;$/;"	m	class:UniformGrid
+ma	Deviation.h	/^		Mesh* ma;$/;"	m	class:Deviation
+ma	MeshDev.cxx	/^static Mesh* ma = 0;$/;"	v	file:
+mafn	Deviation.h	/^		int mafn;$/;"	m	class:Deviation
+mafn	MeshDev.cxx	/^static string mafn;$/;"	v	file:
+main	MeshDev.cxx	/^int main(int argc, char *argv[])$/;"	f
+mavn	Deviation.h	/^		int mavn;$/;"	m	class:Deviation
+maxdev	Deviation.h	/^		double maxdev;$/;"	m	class:Deviation
+maxpt	BoundingBox.h	/^		Point maxpt;$/;"	m	class:BoundingBox
+mb	Deviation.h	/^		Mesh* mb;$/;"	m	class:Deviation
+mb	MeshDev.cxx	/^static Mesh* mb = 0;$/;"	v	file:
+mbfn	Deviation.h	/^		int mbfn;$/;"	m	class:Deviation
+mbfn	MeshDev.cxx	/^static string mbfn;$/;"	v	file:
+mbvn	Deviation.h	/^		int mbvn;$/;"	m	class:Deviation
+meandev	Deviation.h	/^		double meandev;$/;"	m	class:Deviation
+meddev	Deviation.h	/^		double meddev;$/;"	m	class:Deviation
+mf	UniformGrid.h	/^		std::vector<Vector3i>& mf;$/;"	m	class:UniformGrid
+mfn	UniformGrid.h	/^		std::vector<Vector3d>& mfn;$/;"	m	class:UniformGrid
+mindev	Deviation.h	/^		double mindev;$/;"	m	class:Deviation
+minpt	BoundingBox.h	/^		Point minpt;$/;"	m	class:BoundingBox
+mp	UniformGrid.h	/^		std::vector<double>    mp; \/\/ Mesh face planes$/;"	m	class:UniformGrid
+mv	UniformGrid.h	/^		std::vector<Vector3d>& mv;$/;"	m	class:UniformGrid
+n	Plane.h	/^	Vector3d n;$/;"	m	struct:Plane
+neighbors	Neighborhood.h	/^		Neighbor*	neighbors;$/;"	m	class:Neighborhood
+neighbors	UniformGrid.h	/^		Neighborhood*	neighbors;$/;"	m	class:UniformGrid
+next	Neighborhood.h	/^	Neighbor*	next;	\/\/ Next neighbor$/;"	m	struct:Neighbor
+next	UniformGrid.h	/^	Cell3D* next; \/\/ Pointer to next cell$/;"	m	struct:Cell3D
+now	Stopwatch.h	/^		Clock now;   \/\/ Current time$/;"	m	class:Stopwatch
+of	MeshDev.cxx	/^static FileFormat of = VRML_2_FILE; \/\/ Output file format$/;"	v	file:
+ofn	MeshDev.cxx	/^static string ofn;$/;"	v	file:
+on	Stopwatch.h	/^		bool on;     \/\/ Activity$/;"	m	class:Stopwatch
+operator !=	Stopwatch.h	/^		inline bool operator!=(const Clock& c) const { return time != c.time; }$/;"	f	class:Clock
+operator !=	VectorT.h	/^		inline bool operator!=(const Type& s) const {$/;"	f	class:VectorT
+operator !=	VectorT.h	/^		inline bool operator!=(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator ()	Sample.h	/^		double  operator ()( int i, int j ) const { return dev[j][i]; }$/;"	f	class:Sample
+operator ()	Sample.h	/^		double& operator ()( int i, int j ) { return dev[j][i]; }$/;"	f	class:Sample
+operator *	Stopwatch.h	/^		inline Clock operator*(const Clock& c) const { return Clock(*this) *= c; }$/;"	f	class:Clock
+operator *	VectorT.h	/^		inline VectorT<Type,Size> operator*(const Type& s) const {$/;"	f	class:VectorT
+operator *	VectorT.h	/^		inline VectorT<Type,Size> operator*(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator *	VectorT.h	/^inline VectorT<Type,Size> operator*(Type s, const VectorT<Type,Size>& v )$/;"	f
+operator *=	Stopwatch.h	/^		inline Clock& operator*=(const Clock& c) { time *= c.time; return *this; }$/;"	f	class:Clock
+operator *=	VectorT.h	/^		inline const VectorT<Type,Size>& operator*=(const Type& s) {$/;"	f	class:VectorT
+operator *=	VectorT.h	/^		inline const VectorT<Type,Size>& operator*=(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+operator +	BoundingBox.h	/^inline BoundingBox<Size> operator+(const BoundingBox<Size>& bb1, const BoundingBox<Size>& bb2)$/;"	f
+operator +	Stopwatch.h	/^		inline Clock operator+(const Clock& c) const { return Clock(*this) += c; }$/;"	f	class:Clock
+operator +	VectorT.h	/^		inline VectorT<Type,Size> operator+(const Type& s) const {$/;"	f	class:VectorT
+operator +	VectorT.h	/^		inline VectorT<Type,Size> operator+(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator +	VectorT.h	/^inline VectorT<Type,Size> operator+(Type s, const VectorT<Type,Size>& v )$/;"	f
+operator +=	BoundingBox.h	/^		inline BoundingBox<Size>& operator+=(const BoundingBox<Size>& bb) {$/;"	f	class:BoundingBox
+operator +=	BoundingBox.h	/^		inline BoundingBox<Size>& operator+=(const Point& p) {$/;"	f	class:BoundingBox
+operator +=	BoundingBox.h	/^		inline BoundingBox<Size>& operator+=(const std::vector<Point>& v) {$/;"	f	class:BoundingBox
+operator +=	Stopwatch.h	/^		inline Clock& operator+=(const Clock& c) { time += c.time; return *this; }$/;"	f	class:Clock
+operator +=	VectorT.h	/^		inline VectorT<Type,Size>& operator+=(const Type& s) {$/;"	f	class:VectorT
+operator +=	VectorT.h	/^		inline VectorT<Type,Size>& operator+=(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+operator -	Stopwatch.h	/^		inline Clock operator-(const Clock& c) const { return Clock(*this) -= c; }$/;"	f	class:Clock
+operator -	VectorT.h	/^		inline VectorT<Type,Size> operator-(const Type& s) const {$/;"	f	class:VectorT
+operator -	VectorT.h	/^		inline VectorT<Type,Size> operator-(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator -	VectorT.h	/^		inline VectorT<Type,Size> operator-(void) const {$/;"	f	class:VectorT
+operator -	VectorT.h	/^inline VectorT<Type,Size> operator-(Type s, const VectorT<Type,Size>& v )$/;"	f
+operator -=	Stopwatch.h	/^		inline Clock& operator-=(const Clock& c) { time -= c.time; return *this; }$/;"	f	class:Clock
+operator -=	VectorT.h	/^		inline VectorT<Type,Size>& operator-=(const Type& s) {$/;"	f	class:VectorT
+operator -=	VectorT.h	/^		inline VectorT<Type,Size>& operator-=(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+operator /	Stopwatch.h	/^		inline Clock operator\/(const Clock& c) const { return Clock(*this) \/= c; }$/;"	f	class:Clock
+operator /	VectorT.h	/^		inline VectorT<Type,Size> operator\/(const Type &s) const {$/;"	f	class:VectorT
+operator /	VectorT.h	/^		inline VectorT<Type,Size> operator\/(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator /	VectorT.h	/^inline VectorT<Type,Size> operator\/(Type s, const VectorT<Type,Size>& v )$/;"	f
+operator /=	Stopwatch.h	/^		inline Clock& operator\/=(const Clock& c) { time \/= c.time; return *this; }$/;"	f	class:Clock
+operator /=	VectorT.h	/^		inline const VectorT<Type,Size>& operator\/=(const Type &s) {$/;"	f	class:VectorT
+operator /=	VectorT.h	/^		inline const VectorT<Type,Size>& operator\/=(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+operator <<	BoundingBox.h	/^inline std::ostream& operator<<(std::ostream& out, const BoundingBox<Size>& bb)$/;"	f
+operator <<	Stopwatch.h	/^inline std::ostream& operator<<(std::ostream& os, const Clock& clock)$/;"	f
+operator <<	VectorT.h	/^inline std::ostream& operator<<(std::ostream& os, const VectorT<Type,Size>& vec)$/;"	f
+operator =	BoundingBox.h	/^		inline BoundingBox<Size>& operator=(const BoundingBox<Size>& bb) {$/;"	f	class:BoundingBox
+operator =	Stopwatch.h	/^		inline Clock& operator=(const Clock& c) { time = c.time; return *this; }$/;"	f	class:Clock
+operator =	VectorT.h	/^		inline VectorT<Type,Size>& operator=(const Type& s) {$/;"	f	class:VectorT
+operator =	VectorT.h	/^		inline VectorT<Type,Size>& operator=(const VectorT<Type,Size>& v) {$/;"	f	class:VectorT
+operator ==	Stopwatch.h	/^		inline bool operator==(const Clock& c) const { return time == c.time; }$/;"	f	class:Clock
+operator ==	VectorT.h	/^		inline bool operator==(const Type& s) const {$/;"	f	class:VectorT
+operator ==	VectorT.h	/^		inline bool operator==(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+operator >>	VectorT.h	/^inline std::istream& operator>>(std::istream& is, VectorT<Type,Size>& vec)$/;"	f
+operator Type*	VectorT.h	/^		inline operator Type*() { return values; }$/;"	f	class:VectorT
+operator []	Sample.h	/^		int  operator []( int i ) const { return lw[i]; }$/;"	f	class:Sample
+operator []	Sample.h	/^		int& operator []( int i ) { return lw[i]; }$/;"	f	class:Sample
+operator []	VectorT.h	/^		inline Type& operator[](int i) {$/;"	f	class:VectorT
+operator []	VectorT.h	/^		inline const Type& operator[](int i) const {$/;"	f	class:VectorT
+operator ^	VectorT.h	/^VectorT<double,3>::operator^(const VectorT<double,3>& v) const$/;"	f	class:VectorT
+operator ^	VectorT.h	/^VectorT<float,3>::operator^(const VectorT<float,3>& v) const $/;"	f	class:VectorT
+operator clock_t&	Stopwatch.h	/^		inline operator clock_t&() { return time; }$/;"	f	class:Clock
+operator const Type*	VectorT.h	/^		inline operator const Type*() const { return values; }$/;"	f	class:VectorT
+operator const clock_t&	Stopwatch.h	/^		inline operator const clock_t&() const { return time; }$/;"	f	class:Clock
+operator |	VectorT.h	/^		inline Type operator|(const VectorT<Type,Size>& v) const {$/;"	f	class:VectorT
+pCell	UniformGrid.cxx	/^static Cell3D* pCell;$/;"	v	file:
+point_number	BoundingBox.h	/^		int point_number;$/;"	m	class:BoundingBox
+r1	Neighborhood.h	/^	double		r1;		\/\/ Ratio 1$/;"	m	struct:Neighbor
+r2	Neighborhood.h	/^	double		r2;		\/\/ Ratio 2$/;"	m	struct:Neighbor
+rmsdev	Deviation.h	/^		double rmsdev;$/;"	m	class:Deviation
+sample_step	MeshDev.cxx	/^static double sample_step=0;$/;"	v	file:
+samples	Deviation.h	/^		Sample* samples;$/;"	m	class:Deviation
+sampleu	Deviation.h	/^		Vector3d sampleu, samplev; \/\/ Vectors for sampling$/;"	m	class:Deviation
+samplev	Deviation.h	/^		Vector3d sampleu, samplev; \/\/ Vectors for sampling$/;"	m	class:Deviation
+snum	Deviation.h	/^		int snum;$/;"	m	class:Deviation
+step	Deviation.h	/^		double step;$/;"	m	class:Deviation
+texture_name	Mesh.h	/^		std::string texture_name;$/;"	m	class:Mesh
+textures	Mesh.h	/^		std::vector<Vector2d> textures;$/;"	m	class:Mesh
+time	Stopwatch.h	/^		clock_t time;$/;"	m	class:Clock
+timer	MeshDev.cxx	/^static Stopwatch timer;$/;"	v	file:
+total	BoundingBox.h	/^		Point total;$/;"	m	class:BoundingBox
+total	Stopwatch.h	/^		Clock total; \/\/ Total elapsed time$/;"	m	class:Stopwatch
+ug	Deviation.h	/^		UniformGrid* ug;$/;"	m	class:Deviation
+usage_string	MeshDev.cxx	/^static const string usage_string =$/;"	v	file:
+v	Neighborhood.h	/^	int			v;		\/\/ Vertex if similar$/;"	m	struct:Neighbor
+v	UniformGrid.h	/^	int v;	\/\/ Vertex number$/;"	m	struct:Cell3D
+values	VectorT.h	/^		Type values[Size];$/;"	m	class:VectorT
+vardev	Deviation.h	/^		double vardev;$/;"	m	class:Deviation
+vertex_normals	Mesh.h	/^		std::vector<Vector3d> vertex_normals;$/;"	m	class:Mesh
+vertices	Mesh.h	/^		std::vector<Vector3d> vertices;$/;"	m	class:Mesh
+~Clock	Stopwatch.h	/^		inline ~Clock() {}$/;"	f	class:Clock
+~Deviation	Deviation.cxx	/^Deviation::~Deviation()$/;"	f	class:Deviation
+~Mesh	Mesh.h	/^		inline ~Mesh() {$/;"	f	class:Mesh
+~Neighborhood	Neighborhood.cxx	/^Neighborhood::~Neighborhood()$/;"	f	class:Neighborhood
+~PlaneMesh	PlaneMesh.h	/^		inline ~PlaneMesh() {$/;"	f	class:PlaneMesh
+~Sample	Sample.cxx	/^Sample::~Sample()$/;"	f	class:Sample
+~Stopwatch	Stopwatch.h	/^		inline ~Stopwatch() {$/;"	f	class:Stopwatch
+~UniformGrid	UniformGrid.cxx	/^UniformGrid::~UniformGrid()$/;"	f	class:UniformGrid

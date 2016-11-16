@@ -18,6 +18,7 @@
 #include "Mesh.h"
 #include "FileVrml1.h"
 #include "FileVrml2.h"
+#include "FilePly.h"
 #include <fstream>
 #include <iostream>
 
@@ -173,13 +174,20 @@ bool Mesh::ReadFile( const std::string& file_name )
 	{
 		file_format = INVENTOR_FILE;
 	}
+    else if( extension == "PLY")
+    {
+        file_format = PLY_FILE;
+    }
 	// Other extension
 	else
 	{
 		// Unknown file format
+        std::cout << std::endl;
+        std::cout << "extension: " << extension << std::endl;
+        std::cout << "Unknown file format" << std::endl;
 		return false;
 	}
-	
+    
 	// Read file
 	switch( file_format )
 	{
@@ -194,9 +202,15 @@ bool Mesh::ReadFile( const std::string& file_name )
 		case VRML_2_FILE :
 			return ReadVrml2( *this, file_name );
 
+        //  PLY_FILE
+        case  PLY_FILE:
+            return ReadPly(*this, file_name);
+
 		// Other file
 		default :
 			// Unknown file format
+            std::cout << std::endl;
+            std::cout << "Unknown file format" << std::endl;
 			return false;
 	}
 }

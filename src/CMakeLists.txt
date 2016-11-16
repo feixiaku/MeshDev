@@ -7,6 +7,8 @@ FileVrml1.cpp
 FileVrml1.h
 FileVrml2.cpp
 FileVrml2.h
+FilePly.h
+FilePly.cpp
 Mesh.cpp
 MeshDev.cxx
 MeshDev.h
