@@ -163,7 +163,7 @@ bool Deviation::GeometricDeviation()
 {
 	dev.resize( mavn );
 
-    //std::cout << std::endl << "mavn = " << mavn << std::endl;
+    std::cout << std::endl << "mavn = " << mavn << std::endl;
 	for( register int i = 0; i < mavn; i++ )
 	{
 		dev[i] = ug->NearestNeighbors(ma->Vertex(i))->Distance();
@@ -387,6 +387,7 @@ bool Deviation::Statistics()
 	vardev /= (double)(dev.size() - 1 );
 	rmsdev /= (double)dev.size();
 	rmsdev = sqrt(rmsdev);
+
 /*
 	// Histogram
 	valarray<int> hist(0, 1000);
@@ -411,6 +412,7 @@ bool Deviation::Statistics()
 	}
 	meddev = (double)i/199.0*maxdev;
 */
+
 	return true;
 }
 

@@ -45,6 +45,8 @@ UniformGrid::UniformGrid( Mesh* m, BoundingBox3d* bbox, double dim )
 	}
 
 	m_pMin = bbox->Min();
+    std::cout << std::endl << "UniformGrid line; 48: " << m_pMin << std::endl;
+    std::cout << "UniformGrid line; 49: " << dim << std::endl;
 
 	m_rSize = dim;
 /*

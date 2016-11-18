@@ -234,9 +234,6 @@ static bool Parameters( int argc, char *argv[] )
 // Load Model Files
 static bool LoadModels()
 {
-	ma = new Mesh;
-	mb = new Mesh;
-
 	assert( ma != 0 );
 	assert( mb != 0 );
 
@@ -287,26 +284,8 @@ static void OutputLog()
 	cout<<endl;
 }
 
-//========================================================
-//
-// main
-//
-//========================================================
-// Main Program
-int main(int argc, char *argv[])
+int ComputeDifference()
 {
-	//cout<<endl<<banner_string<<endl;
-	if( Parameters(argc, argv) == false ) return EXIT_FAILURE;
-
-	timer.Reset();
-
-	cout<<"Model load...      "<<flush;
-	timer.Start();
-	if( !LoadModels() ) return EXIT_FAILURE;
- 	timer.Stop();
-	cout<<std::setw(5)<<timer.Intermediate()<<endl;
-
-	cout<<"Initialization...  "<<flush;
 	timer.Start();
 	// Initialize member data
 	dev = new Deviation;
@@ -383,6 +362,46 @@ int main(int argc, char *argv[])
 
 	// Write output log file
 	OutputLog();
+}
+
+void swapAB(Mesh* ma, Mesh* mb)
+{
+    Mesh* tmp = new Mesh;
+    *tmp = *ma;
+    *ma = *mb;
+    *mb = *tmp;
+}
+
+//========================================================
+//
+// main
+//
+//========================================================
+// Main Program
+int main(int argc, char *argv[])
+{
+	//cout<<endl<<banner_string<<endl;
+	if( Parameters(argc, argv) == false ) return EXIT_FAILURE;
+	timer.Reset();
+
+	cout<<"Model load...      "<<flush;
+	timer.Start();
+	ma = new Mesh;
+	mb = new Mesh;
+
+	if( !LoadModels() ) return EXIT_FAILURE;
+ 	timer.Stop();
+	cout<<std::setw(5)<<timer.Intermediate()<<endl;
+
+	cout<<"Initialization...  "<<flush;
+
+    //compute || mafn - mbfn || 
+    ComputeDifference();
+
+    //compute || mbfn - mafn || 
+    swapAB(ma, mb);
+
+    ComputeDifference();
 
 	// Free member data
 	delete dev;
