@@ -364,12 +364,11 @@ int ComputeDifference()
 	OutputLog();
 }
 
-void swapAB(Mesh* ma, Mesh* mb)
+void swapAB(Mesh* &ma, Mesh* &mb)
 {
-    Mesh* tmp = new Mesh;
-    *tmp = *ma;
-    *ma = *mb;
-    *mb = *tmp;
+    Mesh* tmp = ma;
+    ma = mb;
+    mb = tmp;
 }
 
 //========================================================
